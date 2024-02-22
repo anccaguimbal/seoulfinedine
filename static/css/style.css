@@ -1,0 +1,195 @@
+body {
+    background-image: url(/static/images/koreanbg.jpg);
+    background-size: contain;
+    font-family: 'Anta';
+    font-size: larger;
+    font-weight: bold 400;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.image img {
+  height: 100%;
+  background-size: contain;
+  }
+  
+  .image {
+  background-size: contain;
+  }
+
+  .image figcaption{
+  text-align: center;
+  margin-left: -750px;
+  margin-top: -700px;
+  color:mintcream;
+  font-weight: bolder;
+  top: 50%;
+  bottom: 50%;
+  left: 40%;
+  }
+
+.navbar ul {
+    list-style-type: none;
+    background-color:rgb(104, 50, 0);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+.navbar a{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color:cadetblue;
+}
+
+.navbar li {
+    float: left;
+    padding-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(104, 50, 0);
+  }
+  
+  li {
+    float: left;
+    padding-left: 80px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container > div {
+    background-color: darkgray;
+    width: 50px;
+    height: 2px;
+    margin: 0px;
+    text-align: center;
+    line-height: 75px;
+}
+  
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.image-row {
+  background-color: #f7dfbc;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
